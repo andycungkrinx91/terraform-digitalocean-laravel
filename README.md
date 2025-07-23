@@ -144,15 +144,15 @@ Ensure the following are installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourname/terraform-do-laravel.git
-cd terraform-do-laravel
+git clone https://github.com/andycungkrinx91/terraform-digitalocean-laravel.git
+cd terraform-digitalocean-laravel
 ```
 
 ### 2. Configure variables
 
 ```bash
 cp terraform.tfvars.example terraform.tfvars
-nano terraform.tfvars
+nano terraform.tfvars (or you can using your favorite text editor)
 ```
 
 Required variables:
@@ -163,7 +163,7 @@ Required variables:
 
 Optional:
 
-- `allowed_ssh_ips` (recommended to restrict access)
+- `allowed_ssh_ips` (recommended to restrict access with your IP public)
 
 ---
 
