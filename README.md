@@ -51,6 +51,33 @@ A fully automated, **production-ready infrastructure** for deploying Laravel on 
   +-----------------------------------------------------------------------------+
 ```
 
+<table align="center">
+  <tr>
+    <td align="center"><b>Terraform Final Output</b></td>
+    <td align="center"><b>VPC</b></td>
+  </tr>
+  <tr>
+    <td><a href="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/tf-final-output.png" target="_blank"><img src="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/tf-final-output.png" width="400px" alt="Terraform Final Output Screenshot"/></a></td>
+    <td><a href="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/vpc.png" target="_blank"><img src="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/vpc.png" width="400px" alt="VPC Screenshot"/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Firewall</b></td>
+    <td align="center"><b>Droplet Server</b></td>
+  </tr>
+  <tr>
+    <td><a href="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/firewall.png" target="_blank"><img src="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/firewall.png" width="400px" alt="Firewall Screenshot"/></a></td>
+    <td><a href="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/droplet-server.png" target="_blank"><img src="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/droplet-server.png" width="400px" alt="Droplet Server Screenshot"/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Data Disk</b></td>
+    <td align="center"><b>Public Access</b></td>
+  </tr>
+  <tr>
+    <td><a href="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/data-disk.png" target="_blank"><img src="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/data-disk.png" width="400px" alt="Data Disk Screenshot"/></a></td>
+    <td><a href="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/public-access.png" target="_blank"><img src="https://raw.githubusercontent.com/andycungkrinx91/terraform-digitalocean-laravel/master/screenshot/public-access.png" width="400px" alt="Public Access Screenshot"/></a></td>
+  </tr>
+</table>
+
 ---
 
 ## 📁 Project Structure
