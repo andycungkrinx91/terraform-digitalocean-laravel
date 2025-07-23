@@ -1,0 +1,47 @@
+# ========================================================================
+# DigitalOcean Provider Configuration
+# ========================================================================
+# Your DigitalOcean API token with read/write permissions.
+# Create one at: https://cloud.digitalocean.com/account/api/tokens
+do_token = "YOUR_DIGITALOCEAN_API_TOKEN"
+
+# ========================================================================
+# Database Credentials (Required)
+# ========================================================================
+# It is strongly recommended to use a password manager to generate these.
+db_root_password = "YOUR_SECURE_ROOT_PASSWORD"
+db_password      = "YOUR_SECURE_LARAVEL_USER_PASSWORD"
+
+# ========================================================================
+# Security & Access (Recommended to Change)
+# ========================================================================
+# For better security, restrict SSH access to your IP address.
+# Find your IP by searching "what is my ip" on Google.
+# allowed_ssh_ips = ["YOUR_IP_ADDRESS/32"]
+
+# If your SSH key is not in the default location, uncomment and set these.
+# ssh_pub_key_path     = "~/.ssh/your_custom_key.pub"
+# ssh_private_key_path = "~/.ssh/your_custom_key"
+
+# ========================================================================
+# Infrastructure Configuration (Optional - Defaults are set)
+# ========================================================================
+
+# -- Project & Naming --
+# project_name = "laravel-stack"
+
+# -- Network Configuration --
+# vpc_ip_range    = "10.10.120.0/24"
+
+# -- Database Configuration --
+# db_name          = "laravel_db"
+# db_user          = "laravel_user"
+
+# -- Droplet & Volume Configuration --
+# droplet_os_image       = "ubuntu-24-04-x64"
+# webserver_hostname     = "laravel-webserver"
+# database_hostname      = "laravel-db-server"
+# webserver_droplet_size = "s-1vcpu-2gb"
+# database_droplet_size  = "s-2vcpu-4gb"
+# database_disk_size     = 40
+# database_disk_mount_path = "/mnt/mysql/data"

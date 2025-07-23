@@ -1,0 +1,33 @@
+# Local .terraform directories
+.terraform/
+
+# .tfstate files
+# These files are sensitive and should not be committed to version control.
+# Use a remote backend like DigitalOcean Spaces or Terraform Cloud for team collaboration.
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files to prevent committing sensitive data like API tokens and passwords.
+# Use terraform.tfvars.example as a template for users.
+*.tfvars
+*.tfvars.json
+
+# Exclude all .auto.tfvars files
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Exclude .tfplan files
+*.tfplan
+
+# Exclude override files as they are usually temporary
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file
+.terraform.lock.hcl
